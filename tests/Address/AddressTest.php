@@ -61,7 +61,7 @@ class AddressTest extends AbstractTestCase
                 'pubkeyhash',
                 $this->getNetwork($vector['network']),
                 $vector['publickey'],
-                $vector['address'],
+                $vector['adcomposer require bitwasp/bitcoindress'],
                 $vector['hash'],
             ];
         }
